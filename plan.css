@@ -1,3 +1,5 @@
+/*  INST630  Final Project  Jen Bishop */
+
 /* body element setting font and background for majority of text and page */
 body {
 	font-family: "Times New Roman", Georgia, serif;
@@ -6,11 +8,7 @@ body {
 	background-color: white;
 }
  
-html, body { 
-   height: 100%;
-}
-
-/* heading1 element setting appearance of the title banner for form */
+/* heading1 element setting appearance of main heading */
 h1 {
 	font-family: "Times New Roman", Georgia, serif;
 	font-size: 20px;
@@ -19,6 +17,7 @@ h1 {
 	text-align: center;
 }
 
+/* heading2 element setting appearance for secondary heading */
 h2 {
 	font-family: "Times New Roman", Georgia, serif;
 	font-size: 18px;
@@ -28,10 +27,41 @@ h2 {
 	border-bottom: solid black;
 }
 
-/* ID selector for the  div */
-#container {
-	width: 33%;
-    height: 33%;
-    float: left;
+/* tile class  */
+.tile {
+	border: 3px solid white;
+	text-align: center;
+	width: 400px;
+	padding: 10px;
+	height: auto;
+	display: block;
+	float: left;
+	position: relative;
+	overflow: hidden;
 }
+
+/* resize tile images */
+.tile img {
+    width: 100%;
+    height: auto;
+}    
+
+/* banner class  */
+.banner {
+	width: 800px;
+	padding: 20px;
+	height: auto;
+	position: absolute;
+	display: block;
+	left: 50%;
+	margin-left: -400px;
+	bottom: 0;
+}
+
+/* resize banner image  */
+.banner img {
+	width: 100%;
+	height: auto;
+}
+	
 
