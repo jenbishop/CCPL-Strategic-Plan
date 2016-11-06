@@ -1,0 +1,37 @@
+/* body element setting font and background for majority of text and page */
+body {
+	font-family: "Times New Roman", Georgia, serif;
+	font-size: 14px;
+	color: black;
+	background-color: white;
+}
+ 
+html, body { 
+   height: 100%;
+}
+
+/* heading1 element setting appearance of the title banner for form */
+h1 {
+	font-family: "Times New Roman", Georgia, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Times New Roman", Georgia, serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	border-bottom: solid black;
+}
+
+/* ID selector for the  div */
+#container {
+	width: 33%;
+    height: 33%;
+    float: left;
+}
+
