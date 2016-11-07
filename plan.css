@@ -1,6 +1,6 @@
 /*  INST630  Final Project  Jen Bishop */
 
-/* body element setting font and background for majority of text and page */
+/* body element setting font and background for general body */
 body {
 	font-family: "Times New Roman", Georgia, serif;
 	font-size: 14px;
@@ -27,22 +27,23 @@ h2 {
 	border-bottom: solid black;
 }
 
+/* div for CCPL logo */
 #logo {
 	float: right;
 }
 
-	
-
-/* tile class  */
+/* tile class for image tiles */
 .tile {
 	border: 3px solid white;
 	text-align: center;
+	font-size: 18px;
+	color: #404040;
 	width: 400px;
-	padding: 10px;
+	padding: 25px;
 	height: 250px;
 	display: block;
 	float: left;
-	left: 50px;
+	left: 15px;
 	position: relative;
 	overflow: hidden;
 }
@@ -53,10 +54,11 @@ h2 {
     height: 100%;
 }    
 
+/* banner class for banner color blocks  */
 .banner {
 	width: 175px;
 	height: 20px;
-	padding: 20px;
+	padding: 25px;
 	color: white;
 	font-size: 18px;
 	font-weight: bold;
@@ -66,31 +68,27 @@ h2 {
 	display: inline;
 	float: left;
 	left: 150px;
-	margin-top: 150px;
+	margin-top: 120px;
 }
 
+/* divs for color banner blocks */
 #darkBlue {
 	background-color: #0d387c;
-	
 }
 
 #red {
 	background-color: #ff0000;
-	
 }
 
 #green {
 	background-color: #33cc33;
-
 }
 
 #yellow {
 	background-color: #e6e600;
-	
 }
 
 #lightBlue {
-	background-color: #005ce6;
-	
+	background-color: #005ce6;	
 }
 	
