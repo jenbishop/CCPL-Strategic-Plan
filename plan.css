@@ -11,7 +11,7 @@ body {
 /* heading1 element setting appearance of main heading */
 h1 {
 	font-family: "Times New Roman", Georgia, serif;
-	font-size: 20px;
+	font-size: 32px;
 	font-weight: bold;
 	color: black;
 	text-align: center;
@@ -20,12 +20,18 @@ h1 {
 /* heading2 element setting appearance for secondary heading */
 h2 {
 	font-family: "Times New Roman", Georgia, serif;
-	font-size: 18px;
+	font-size: 26px;
 	font-weight: bold;
 	color: black;
 	text-align: center;
 	border-bottom: solid black;
 }
+
+#logo {
+	float: right;
+}
+
+	
 
 /* tile class  */
 .tile {
@@ -33,9 +39,10 @@ h2 {
 	text-align: center;
 	width: 400px;
 	padding: 10px;
-	height: auto;
+	height: 250px;
 	display: block;
 	float: left;
+	left: 50px;
 	position: relative;
 	overflow: hidden;
 }
@@ -43,25 +50,47 @@ h2 {
 /* resize tile images */
 .tile img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }    
 
-/* banner class  */
 .banner {
-	width: 800px;
+	width: 175px;
+	height: 20px;
 	padding: 20px;
-	height: auto;
-	position: absolute;
-	display: block;
-	left: 50%;
-	margin-left: -400px;
-	bottom: 0;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	display: inline;
+	float: left;
+	left: 150px;
+	margin-top: 150px;
 }
 
-/* resize banner image  */
-.banner img {
-	width: 100%;
-	height: auto;
+#darkBlue {
+	background-color: #0d387c;
+	
+}
+
+#red {
+	background-color: #ff0000;
+	
+}
+
+#green {
+	background-color: #33cc33;
+
+}
+
+#yellow {
+	background-color: #e6e600;
+	
+}
+
+#lightBlue {
+	background-color: #005ce6;
+	
 }
 	
-
