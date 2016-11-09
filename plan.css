@@ -3,7 +3,7 @@
 /* body element setting font and background for general body */
 body {
 	font-family: "Times New Roman", Georgia, serif;
-	font-size: 14px;
+	font-size: 16px;
 	color: black;
 	background-color: white;
 }
@@ -68,9 +68,27 @@ h2 {
 	display: inline;
 	float: left;
 	left: 150px;
-	margin-top: 120px;
+	margin-top: 150px;
 }
 
+/* div for info space */
+#info {
+	width: 800 px;
+	height: 50 px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 15px;
+	position: absolute;
+	display: inline-block;
+	top: 70%;
+	left: 20%;
+}
+
+/* class for info div border */
+.ridge {
+	border-style: ridge;
+}
+	
 /* divs for color banner blocks */
 #darkBlue {
 	background-color: #0d387c;
