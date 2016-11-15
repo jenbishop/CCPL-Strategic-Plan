@@ -18,12 +18,12 @@ var customerService = "Carroll County Public Library strives to be an active par
 	</br> </br> We are your neighbors and take pride in providing you with the best ideas, \
 	information, and resources to discover, learn, and grow.";
 	
-var branches = "<li> Eldersburg Branch </li> \
-	<li> Finksburg Branch </li> \
-	<li> Mount Airy Branch </li> \
-	<li> North Carroll Branch </li> \
-	<li> Taneytown Branch </li> \
-	<li> Westminster Branch </li>";
+var branches = "<li> Eldersburg Branch....6400 W. Hemlock Drive </li> \
+	<li> Finksburg Branch....2265 Old Westminster Pike </li> \
+	<li> Mount Airy Branch....705 Ridge Avenue </li> \
+	<li> North Carroll Branch....2255 Hanover Pike </li> \
+	<li> Taneytown Branch....10 Grand Drive </li> \
+	<li> Westminster Branch....50 East Main Street </li>";
 
 var infoMessage = '"Libraries are not the consequence of\
 	progress and prosperity, they are the cause of progress and prosperity"\

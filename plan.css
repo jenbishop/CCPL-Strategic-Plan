@@ -78,8 +78,9 @@ h2 {
 	text-align: left;
 	padding: 10px;
 	margin-top: 10px;
-	position: relative;
+	position: absolute;
 	display: inline-block;
+	top: 75%;
 	left: 20%;
 }
 
