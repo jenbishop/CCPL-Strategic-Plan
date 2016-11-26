@@ -3,7 +3,7 @@
 /* body element setting font and background for general body */
 body {
 	font-family: "Times New Roman", Georgia, serif;
-	font-size: 16px;
+	font-size: 14px;
 	color: black;
 	background-color: white;
 }
@@ -36,10 +36,10 @@ h2 {
 .tile {
 	border: 3px solid white;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 	color: #404040;
 	width: 400px;
-	padding: 25px;
+	padding: 22px;
 	height: 250px;
 	display: block;
 	float: left;
@@ -73,15 +73,17 @@ h2 {
 
 /* div for info space */
 #info {
-	width: 800 px;
+	width: 500 px;
 	height: 450 px;
 	text-align: left;
-	padding: 10px;
-	margin-top: 10px;
+	padding:10px;
+	margin-top: 5px;
 	position: absolute;
 	display: inline-block;
 	top: 75%;
-	left: 20%;
+	left: 30%;
+	color: white;
+	background-color: grey;
 }
 
 /* class for info div border */

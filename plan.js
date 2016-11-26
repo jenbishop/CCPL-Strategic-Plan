@@ -25,34 +25,37 @@ var branches = "<li> Eldersburg Branch....6400 W. Hemlock Drive </li> \
 	<li> Taneytown Branch....10 Grand Drive </li> \
 	<li> Westminster Branch....50 East Main Street </li>";
 
-var infoMessage = '"Libraries are not the consequence of\
-	progress and prosperity, they are the cause of progress and prosperity"\
-	Andrew Carnegie, 1889';
+var infoMessage = '"Libraries are not the consequence of progress and prosperity,\
+	they are the cause of progress and prosperity" Andrew Carnegie, 1889';
 	
 
 function overDarkBlue() {
 	document.getElementById("info").innerHTML = vision;
+	document.getElementById('info').style.backgroundColor = "#0d387c";
 }
 
 function overRed() {
 	document.getElementById("info").innerHTML = mission;
+	document.getElementById("info").style.backgroundColor = "#ff0000";
 }
 
 function overGreen() {
 	document.getElementById("info").innerHTML= coreValues;
+	document.getElementById("info").style.backgroundColor = "#33cc33";
 }
 
 function overYellow() {
 	document.getElementById("info").innerHTML = customerService;
+	document.getElementById("info").style.backgroundColor = "#e6e600";
 }
 
 function overLightBlue() {
 	document.getElementById("info").innerHTML = branches;
+	document.getElementById("info").style.backgroundColor = "#005ce6";
 }
     
 function mouseOut () {
 	document.getElementById("info").innerHTML = infoMessage;
+	document.getElementById("info").style.backgroundColor = "grey";
 }   
     
-
-			
