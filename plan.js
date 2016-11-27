@@ -59,3 +59,48 @@ function mouseOut () {
 	document.getElementById("info").style.backgroundColor = "grey";
 }   
     
+function overEducation() {
+	document.getElementById("education").innerHTML = "All ages will have access to collections,\
+	educational activities, and services that engage them in self-directed and lifelong education\
+	to enrich their lives.";
+	document.getElementById("education").style.backgroundColor = "#ffffcc";
+	document.getElementById("education").style.fontSize = "xx-large";
+}
+
+function outEducation() {
+	document.getElementById("education"). innerHTML = "<img src='EP.jpg'> Lifelong Education";
+	document.getElementById("education").style.backgroundColor = "white";
+	document.getElementById("education").style.fontSize = "x-large";
+}
+
+function overCommunity() {
+	document.getElementById("community").innerHTML = "Local businesses, schools, and organizations\
+	 will make connections with the library through our services, resources and events.";
+	document.getElementById("community").style.backgroundColor = "#ffffcc";
+	document.getElementById("community").style.fontSize = "xx-large";
+}
+
+function outCommunity() {
+	document.getElementById("community"). innerHTML = "<img src='Battle.jpg'>Community Engagement";
+	document.getElementById("community").style.backgroundColor = "white";
+	document.getElementById("community").style.fontSize = "x-large";
+} 
+
+function overAccess() {
+	document.getElementById("access").innerHTML = "Residents will be aware\
+	of the availability, and have access to, current and emerging technologies and to the \
+	assistance they need to use them effectively in their daily lives.";
+	document.getElementById("access").style.backgroundColor = "#ffffcc";
+	document.getElementById("access").style.fontSize = "xx-large";
+}
+
+function outAccess() {
+	document.getElementById("access"). innerHTML = "<img src='VR_TechStroll.jpg'> Access to Technology";
+	document.getElementById("access").style.backgroundColor = "white";
+	document.getElementById("access").style.fontSize = "x-large";
+}
+
+
+
+
+	 
