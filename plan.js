@@ -38,7 +38,7 @@ var infoMessage = '"Libraries are not the consequence of progress and prosperity
 // and update background color to vision block color
 function overDarkBlue() {
 	document.getElementById("info").innerHTML = vision;
-	document.getElementById('info').style.backgroundColor = "#0d387c";
+	document.getElementById("info").style.backgroundColor = "#0d387c";
 }
 
 //function for mouseover event for mission block to update info space with mission text
