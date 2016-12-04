@@ -54,7 +54,19 @@ h2 {
 .tile img {
     width: 100%;
     height: 100%;
-}    
+}  
+
+/* div for stats */
+#stats {
+	float: left;
+	left: 45%;
+	position: relative;
+	display: block;
+	color: black;
+	font-size: 16px;
+	background-color: red;
+	margin-top: 10px;
+}
 
 /* banner class for banner color blocks  */
 .banner {
@@ -69,8 +81,7 @@ h2 {
 	overflow: hidden;
 	display: inline;
 	float: left;
-	left: 10%;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 /* div for info space */
@@ -112,4 +123,3 @@ h2 {
 #lightBlue {
 	background-color: #005ce6;	
 }
-
