@@ -2,7 +2,7 @@
 
 /* body element setting font and background for general body */
 body {
-	font-family: "Times New Roman", Georgia, serif;
+	font-family: "Arial";
 	font-size: 14px;
 	color: black;
 	background-color: white;
@@ -10,7 +10,7 @@ body {
  
 /* heading1 element setting appearance of main heading */
 h1 {
-	font-family: "Times New Roman", Georgia, serif;
+	font-family: "Arial";
 	font-size: 30px;
 	font-weight: bold;
 	color: black;
@@ -19,12 +19,18 @@ h1 {
 
 /* heading2 element setting appearance for secondary heading */
 h2 {
-	font-family: "Times New Roman", Georgia, serif;
+	font-family: "Arial";
 	font-size: 24px;
 	font-weight: bold;
 	color: black;
 	text-align: center;
 	border-bottom: solid black;
+}
+
+/* Updating stats in heading 3 */
+#stats {
+	color: red;
+	text-align: left;
 }
 
 /* div for CCPL logo */
@@ -47,7 +53,7 @@ h2 {
 	left: 15px;
 	position: relative;
 	overflow: hidden;
-	padding-bottom: 50px;      
+	padding-bottom: 40px;      
 }
 
 /* resize tile images */
@@ -55,18 +61,6 @@ h2 {
     width: 100%;
     height: 100%;
 }  
-
-/* div for stats */
-#stats {
-	float: left;
-	left: 45%;
-	position: relative;
-	display: block;
-	color: black;
-	font-size: 16px;
-	background-color: red;
-	margin-top: 10px;
-}
 
 /* banner class for banner color blocks  */
 .banner {
@@ -78,31 +72,13 @@ h2 {
 	font-weight: bold;
 	text-align: center;
 	position: relative;
-	overflow: hidden;
-	display: inline;
-	float: left;
-	margin-top: 50px;
-}
-
-/* div for info space */
-#info {
-	width: 500 px;
-	height: 450 px;
-	text-align: left;
-	padding:10px;
-	margin-top: 10px;
-	position: relative;
 	display: inline-block;
-	left: 23%;
-	color: white;
-	background-color: grey;
+	overflow: hidden;
+	float: left;
+	left: 10%;
+	margin-top: 30px;
 }
 
-/* class for info div border */
-.ridge {
-	border-style: ridge;
-}
-	
 /* divs for color banner blocks */
 #darkBlue {
 	background-color: #0d387c;
@@ -122,4 +98,23 @@ h2 {
 
 #lightBlue {
 	background-color: #005ce6;	
+}
+
+/* div for info space */
+#info {
+	width: 500 px;
+	height: 450 px;
+	text-align: left;
+	padding:10px;
+	margin-top: 5px;
+	position: relative;
+	display: inline-block;
+	left: 23%;
+	color: white;
+	background-color: grey;
+}
+
+/* class for info div border */
+.ridge {
+	border-style: ridge;
 }

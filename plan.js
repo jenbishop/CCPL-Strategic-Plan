@@ -1,5 +1,5 @@
 // CCPL Strategic Plan webpage
-// author:  Jen Bishop-INST630-Fall 2016
+// author:  Jen Bishop-INST630 Final Project -Fall 2016
 
 // declare vision variable with text for banner mouse event
 var vision = "Inspire, educate, and empower our community.";
@@ -34,6 +34,24 @@ var branches = "<li> Eldersburg Branch....6400 W. Hemlock Drive </li> \
 var infoMessage = '"Libraries are not the consequence of progress and prosperity,\
 	they are the cause of progress and prosperity" Andrew Carnegie, 1889';
 	
+//declare text variable to hold scrolling stats info
+var text = ["Cardholders: 96,266 (57% of county pop.)", "CCPL Budget: $9,732,818", "Number of \
+Educational Activities: 6,834","Total Educational Activity Attendance: 177,076", "Circulation: \
+3.7 million", "CCPL by the Numbers: 2016"];
+
+// declare counter variable for updating stats message
+var counter = 0;
+
+// setInterval method to call change function to update stats heading every 2.5 seconds
+setInterval(change, 2500);
+function change() {
+    document.getElementById("stats").innerHTML = text[counter];
+    counter++;
+    if(counter >= text.length) { 
+    	counter = 0; 
+    }
+}
+
 //function for mouseover event for vision block to update info space with vision text
 // and update background color to vision block color
 function overDarkBlue() {
@@ -128,5 +146,4 @@ function outAccess() {
 	document.getElementById("access").style.backgroundColor = "white";
 	document.getElementById("access").style.fontSize = "x-large";
 }
-
 	 
