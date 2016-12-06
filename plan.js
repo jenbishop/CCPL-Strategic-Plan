@@ -57,6 +57,7 @@ function change() {
 function overDarkBlue() {
 	document.getElementById("info").innerHTML = vision;
 	document.getElementById("info").style.backgroundColor = "#0d387c";
+	document.getElementById("info").style.left = "95px";
 }
 
 //function for mouseover event for mission block to update info space with mission text
@@ -64,6 +65,7 @@ function overDarkBlue() {
 function overRed() {
 	document.getElementById("info").innerHTML = mission;
 	document.getElementById("info").style.backgroundColor = "#ff0000";
+	document.getElementById("info").style.left = "135px";
 }
 
 //function for mouseover event for core values block to update info space with core values list
@@ -71,6 +73,7 @@ function overRed() {
 function overGreen() {
 	document.getElementById("info").innerHTML= coreValues;
 	document.getElementById("info").style.backgroundColor = "#33cc33";
+	document.getElementById("info").style.left = "515px";
 }
 
 //function for mouseover event for customer service block to update info space with customer 
@@ -78,6 +81,7 @@ function overGreen() {
 function overYellow() {
 	document.getElementById("info").innerHTML = customerService;
 	document.getElementById("info").style.backgroundColor = "#e6e600";
+	document.getElementById("info").style.left = "450px";
 }
 
 //function for mouseover event for branches block to update info space with branches list
@@ -85,6 +89,7 @@ function overYellow() {
 function overLightBlue() {
 	document.getElementById("info").innerHTML = branches;
 	document.getElementById("info").style.backgroundColor = "#005ce6";
+	document.getElementById("info").style.left = "970px";
 }
 
 //function for mouseout event for info block to update info space with initial info quote
@@ -92,6 +97,7 @@ function overLightBlue() {
 function mouseOut () {
 	document.getElementById("info").innerHTML = infoMessage;
 	document.getElementById("info").style.backgroundColor = "grey";
+	document.getElementById("info").style.left = "270px";
 }   
     
 //function for mouseover event for Lifelong Education image to update space with service priority
@@ -100,7 +106,7 @@ function overEducation() {
 	document.getElementById("education").innerHTML = "All ages will have access to collections,\
 	educational activities, and services that engage them in self-directed and lifelong education\
 	to enrich their lives.";
-	document.getElementById("education").style.backgroundColor = "#ffffcc";
+	document.getElementById("education").style.backgroundColor = "#f2f2f2";
 	document.getElementById("education").style.fontSize = "xx-large";
 }
 
@@ -117,7 +123,7 @@ function outEducation() {
 function overCommunity() {
 	document.getElementById("community").innerHTML = "Local businesses, schools, and organizations\
 	 will make connections with the library through our services, resources and events.";
-	document.getElementById("community").style.backgroundColor = "#ffffcc";
+	document.getElementById("community").style.backgroundColor = "#f2f2f2";
 	document.getElementById("community").style.fontSize = "xx-large";
 }
 
@@ -135,7 +141,7 @@ function overAccess() {
 	document.getElementById("access").innerHTML = "Residents will be aware\
 	of the availability, and have access to, current and emerging technologies and to the \
 	assistance they need to use them effectively in their daily lives.";
-	document.getElementById("access").style.backgroundColor = "#ffffcc";
+	document.getElementById("access").style.backgroundColor = "#f2f2f2";
 	document.getElementById("access").style.fontSize = "xx-large";
 }
 
